@@ -1,0 +1,109 @@
+/*	****************************************
+	Modules (reusable classes)
+	**************************************** */
+.container {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 960px; 
+}
+
+.content {
+	text-align: left;
+	overflow: auto;
+}
+
+#first {
+	background: rgba(0,0,0,0.7);
+	color: white;
+}
+
+#second {
+	background: rgba(240,240,240,0.8);
+	color: black;
+}
+
+
+/*
+	Navigation
+*/
+
+.main-menu {
+	background-color: black;
+	border-bottom: 1px solid teal;
+}
+
+.main-menu ul {
+	align-items: center;
+}
+
+.main-menu li {
+	color: teal;
+}
+
+.logo {
+	flex: 0 0 85%;
+}
+
+/*
+	Layout
+*/
+
+p {
+	margin-top: 0;
+	line-height: 2em;
+}
+
+body {
+	background-image: url("../images/wall.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+section {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+a, a:visited {
+	color: inherit;
+}
+
+a:hover {
+	color: gray;
+}
+
+.img-shrink {
+	max-width: 25%;
+	height: auto;
+	margin-right: 25px;
+}
+
+.content img{
+	float: left;
+}
+
+#second a{
+	margin-right: 20px;
+}
+
+#column1, #column2, #column3 {
+	color: white;
+	float: left;
+	width: 30%;
+	padding-right: 20px;
+}
+
+
+/*	*************************************
+	State
+	************************************* */
+#nav #currentPage {
+color:pink; 
+}
