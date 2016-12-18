@@ -1,8 +1,15 @@
 <?php
 
+
+
 	$dbhost = "localhost";
-	$dbuser = "root";
-	$dbpass = "";
-	$dbname = "contact";
+
+	$dbuser = "urcscon3_gchen";
+
+	$dbpass = "coffee1N/!";
+
+	$dbname = "urcscon3_gchen";
+
+
 
 ?>
